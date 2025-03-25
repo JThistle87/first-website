@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* Black background */
+  color: #FFD700; /* Gold text */
+  text-align: center;
+}
+
+header {
+  background-color: #000; /* Black header */
+  padding: 20px;
+  border-bottom: 3px solid #FFD700; /* Gold border */
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #FFD700; /* Gold heading */
+}
+
+p {
+  font-size: 1.2rem;
+  color: #FFFFFF; /* White text for paragraphs */
+}
+
+/* Section Styles */
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #1A1A1A; /* Dark gray for sections */
+  border-radius: 10px;
+  border: 2px solid #FFD700; /* Gold border */
+}
+
+h2 {
+  font-size: 2rem;
+  color: #FFD700; /* Gold heading */
+}
+
+/* Larger Images */
+img {
+  max-width: 90%; /* Increase image size to 90% of the container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+  border: 2px solid #FFD700; /* Gold border around images */
+  margin: 20px 0; /* Add some space around the images */
+}
+
+/* Hover Effect for Images */
+img:hover {
+  transform: scale(1.05); /* Slightly enlarge the image on hover */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  color: #FFFFFF; /* White text for list items */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #000; /* Black footer */
+  padding: 10px;
+  margin-top: 20px;
+  border-top: 3px solid #FFD700; /* Gold border */
+}
+
+footer p {
+  color: #FFD700; /* Gold text */
+}
+
+footer a {
+  color: #FFD700; /* Gold link */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
